@@ -9,7 +9,7 @@
 	minimal_player_age = 1
 	economic_power = 10
 	minimum_character_age = list(SPECIES_HUMAN = 25)
-	ideal_character_age = 35
+	ideal_character_age = 21
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/exploration/pathfinder
 	allowed_branches = list(/datum/mil_branch/expeditionary_corps)
 	allowed_ranks = list(
