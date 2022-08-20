@@ -51,7 +51,7 @@
 	economic_power = 8
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 24)
-	ideal_character_age = 25
+	ideal_character_age = 20
 	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/pilot
 	allowed_branches = list(
 		/datum/mil_branch/civilian,
