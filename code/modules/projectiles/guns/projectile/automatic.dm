@@ -96,12 +96,12 @@
 		icon_state = "c20r"
 
 /obj/item/gun/projectile/automatic/assault_rifle
-	name = "assault rifle"
+	name = "STS-35"
 	desc = "The rugged STS-35 is a durable automatic weapon of a make popular on the frontier worlds. Originally produced by Hephaestus. The serial number has been scratched off."
 	icon = 'icons/obj/guns/assault_rifle.dmi'
 	icon_state = "arifle"
 	item_state = null
-	w_class = ITEM_SIZE_HUGE
+	w_class = ITEM_SIZE_NORMAL
 	force = 10
 	caliber = CALIBER_RIFLE
 	origin_tech = list(TECH_COMBAT = 6, TECH_MATERIAL = 1, TECH_ESOTERIC = 5)
@@ -362,5 +362,3 @@
 	else
 		icon_state = "battlerifle-empty"
 		wielded_item_state = "battlerifle-wielded-empty"
-
-
