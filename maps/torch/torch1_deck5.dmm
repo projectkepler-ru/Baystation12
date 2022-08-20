@@ -975,6 +975,11 @@
 	pixel_y = -24
 	},
 /obj/structure/table/steel_reinforced,
+/obj/item/gun/projectile/shotgun/doublebarrel,
+/obj/item/ammo_magazine/shotholder,
+/obj/item/ammo_magazine/shotholder,
+/obj/item/ammo_magazine/shotholder,
+/obj/item/ammo_magazine/shotholder/shell,
 /turf/simulated/floor/tiled/monotile,
 /area/exploration_shuttle/cockpit)
 "bY" = (
@@ -1690,6 +1695,7 @@
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/med_crate/burn,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "dE" = (
@@ -1877,12 +1883,14 @@
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/med_crate/toxin,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "eb" = (
 /obj/effect/floor_decal/techfloor,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light/spot,
+/obj/structure/closet/crate/med_crate/oxyloss,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/cargo)
 "ec" = (
@@ -2535,6 +2543,7 @@
 	c_tag = "Charon - Airlock Compartment";
 	dir = 1
 	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/exploration_shuttle/airlock)
 "fK" = (
@@ -10262,6 +10271,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/closet/crate/internals/fuel,
 /turf/simulated/floor/tiled/techfloor,
 /area/exploration_shuttle/fuel)
 "xp" = (
@@ -14403,6 +14413,11 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/shuttle/petrov/control)
+"Nj" = (
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/structure/closet/crate/med_crate/trauma,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/exploration_shuttle/cargo)
 "Np" = (
 /obj/effect/wallframe_spawn/reinforced,
 /turf/simulated/floor/plating,
@@ -35161,7 +35176,7 @@ aP
 cJ
 de
 dv
-dJ
+Nj
 eb
 eh
 eF
