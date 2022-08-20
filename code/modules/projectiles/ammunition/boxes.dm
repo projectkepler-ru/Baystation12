@@ -311,7 +311,7 @@
 	caliber = CALIBER_RIFLE
 	matter = list(MATERIAL_STEEL = 1800)
 	ammo_type = /obj/item/ammo_casing/rifle
-	max_ammo = 20
+	max_ammo = 30
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/mil_rifle
@@ -322,7 +322,15 @@
 	caliber = CALIBER_RIFLE_MILITARY
 	matter = list(MATERIAL_STEEL = 1800)
 	ammo_type = /obj/item/ammo_casing/rifle/military
-	max_ammo = 15 //if we lived in a world where normal mags had 30 rounds, this would be a 20 round mag
+	max_ammo = 25 //if we lived in a world where normal mags had 30 rounds, this would be a 20 round mag
+	multiple_sprites = 1
+
+/obj/item/ammo_magazine/box/rifle
+	name = "assault rifle magazine"
+	caliber = CALIBER_RIFLE
+	matter = list(MATERIAL_STEEL = 1800)
+	ammo_type = /obj/item/ammo_casing/rifle
+	max_ammo = 300
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/mil_rifle/empty
