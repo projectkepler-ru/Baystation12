@@ -322,7 +322,7 @@
 	caliber = CALIBER_RIFLE_MILITARY
 	matter = list(MATERIAL_STEEL = 1800)
 	ammo_type = /obj/item/ammo_casing/rifle/military
-	max_ammo = 25 //if we lived in a world where normal mags had 30 rounds, this would be a 20 round mag
+	max_ammo = 25
 	multiple_sprites = 1
 
 /obj/item/ammo_magazine/box/rifle
