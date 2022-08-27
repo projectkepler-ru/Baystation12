@@ -3,7 +3,7 @@
 	supervisors = "the Sol Central Government and the Sol Code of Uniform Justice"
 	minimal_player_age = 14
 	economic_power = 16
-	minimum_character_age = list(SPECIES_HUMAN = 40)
+	minimum_character_age = list(SPECIES_HUMAN = 30)
 	ideal_character_age = 50
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/CO
 	allowed_branches = list(
@@ -40,7 +40,7 @@
 	department_flag = COM
 	minimal_player_age = 14
 	economic_power = 14
-	minimum_character_age = list(SPECIES_HUMAN = 35)
+	minimum_character_age = list(SPECIES_HUMAN = 30)
 	ideal_character_age = 45
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/XO
 	allowed_branches = list(
